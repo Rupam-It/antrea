@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: antrea-deployment
+  namespace: lfx-mentorship
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: antrea
+  template:
+    metadata:
+      labels:
+        app: antrea
+    spec:
+      containers:
+      - name: antrea-toolbox
+        image: antrea/toolbox:1.4
+
