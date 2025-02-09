@@ -4009,7 +4009,7 @@ data:
     #  Traceflow: true
 
     # Enable PacketCapture feature which supports capturing packets to diagnose network issues.
-    #  PacketCapture: false
+    PacketCapture: true
 
     # Enable NodePortLocal feature to make the Pods reachable externally through NodePort
     #  NodePortLocal: true

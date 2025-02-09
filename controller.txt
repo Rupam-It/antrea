@@ -1,0 +1,10 @@
+I0209 03:59:02.508655       1 log_file.go:93] Set log file max size to 104857600
+I0209 03:59:02.508949       1 controller.go:126] "Starting Antrea Controller" version="v2.3.0-dev-9a039258.dirty"
+I0209 03:59:02.508964       1 controller.go:129] "Antrea Agent Started" github_user="Rupam_It" pod="antrea-controller-8456b564f7-msxfm"
+I0209 03:59:02.508978       1 client.go:89] No kubeconfig file was specified. Falling back to in-cluster config
+I0209 03:59:02.513502       1 selfsignedcert_provider.go:281] "Writing certificate and key to the cert directory"
+I0209 03:59:02.809842       1 handler.go:286] Adding GroupVersion controlplane.antrea.io v1beta2 to ResourceManager
+I0209 03:59:02.810238       1 handler.go:286] Adding GroupVersion system.antrea.io v1beta1 to ResourceManager
+I0209 03:59:02.810794       1 handler.go:286] Adding GroupVersion stats.antrea.io v1alpha1 to ResourceManager
+I0209 03:59:02.811399       1 prometheus.go:124] Initializing prometheus metrics
+I0209 03:59:02.811817       1 controller.go:158] "Starting" controller="EgressController"
